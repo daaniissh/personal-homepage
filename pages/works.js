@@ -4,8 +4,8 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
 import Foodeli from '../public/images/works/foodeli.png'
-import Steller from '../public/images/works/Steller.png'
-import thumbFourPainters from '../public/images/works/the-four-painters_eyecatch.jpg'
+import Steller from '../public/images/works/steller.png'
+import Movie from '../public/images/works/1154.jpg'
 import thumbMenkiki from '../public/images/works/menkiki_eyecatch.png'
 import thumbMargelo from '../public/images/works/margelo_eyecatch.png'
 import thumbModeTokyo from '../public/images/works/modetokyo_eyecatch.png'
@@ -41,8 +41,8 @@ const Works = () => (
         <Section delay={0.1}>
           <WorkGridItem
             id="fourpainters"
-            title="The four painters"
-            thumbnail={thumbFourPainters}
+            title="Movie Dashboard"
+            thumbnail={Movie}
           >
             A video work generated with deep learning, imitating famous four
             painters like Van Gogh
