@@ -6,13 +6,13 @@ import { WorkGridItem } from '../components/grid-item'
 import Foodeli from '../public/images/works/foodeli.png'
 import Steller from '../public/images/works/steller.png'
 import Movie from '../public/images/works/1154.jpg'
-import thumbMenkiki from '../public/images/works/menkiki_eyecatch.png'
-import thumbMargelo from '../public/images/works/margelo_eyecatch.png'
-import thumbModeTokyo from '../public/images/works/modetokyo_eyecatch.png'
-import thumbStyly from '../public/images/works/styly_eyecatch.png'
-import thumbPichu2 from '../public/images/works/pichu2_eyecatch.png'
-import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
-import thumbAmembo from '../public/images/works/amembo_eyecatch.png'
+import Flair from '../public/images/works/flair.png'
+// import thumbMargelo from '../public/images/works/margelo_eyecatch.png'
+// import thumbModeTokyo from '../public/images/works/modetokyo_eyecatch.png'
+// import thumbStyly from '../public/images/works/styly_eyecatch.png'
+import Chatty from '../public/images/works/chatty.jpg'
+// import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
+import Meal from '../public/images/works/food.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -24,17 +24,16 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
           <WorkGridItem id="inkdrop" title="Foodeli" thumbnail={Foodeli}>
-            A Markdown note-taking app with 100+ plugins, cross-platform and
-            encrypted data sync support
+            Foodeli is an online marketplace where people can buy and sell food.
+            It helps food lovers find what they want and helps food sellers
+            reach customers easily.
           </WorkGridItem>
         </Section>
         <Section>
-          <WorkGridItem
-            id="walknote"
-            title="walknote"
-            thumbnail={Steller}
-          >
-            Music recommendation app for iOS
+          <WorkGridItem id="walknote" title="Steller" thumbnail={Steller}>
+            Discover products available locally. We provide convenient purchase
+            links to Amazon and Flipkart, tailored to your location for a
+            seamless shopping experience.
           </WorkGridItem>
         </Section>
 
@@ -44,14 +43,22 @@ const Works = () => (
             title="Movie Dashboard"
             thumbnail={Movie}
           >
-            A video work generated with deep learning, imitating famous four
-            painters like Van Gogh
+            MovieDashBoard is a tool for managing movie information. It lets you
+            add new movie genres and movies to a database.
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
-          <WorkGridItem id="menkiki" thumbnail={thumbMenkiki} title="Menkiki">
-            An app that suggests ramen(noodle) shops based on a given photo of
-            the ramen you want to eat
+          <WorkGridItem id="menkiki" thumbnail={Flair} title="Movie Flair">
+          Find your next movie! Search for titles or discover popular picks.
+
+
+
+
+
+
+
+
+
           </WorkGridItem>
         </Section>
       </SimpleGrid>
@@ -59,7 +66,7 @@ const Works = () => (
       <Section delay={0.2}>
         <Divider my={6} />
 
-        <Heading as="h3" fontSize={20} mb={4}>
+        {/* <Heading as="h3" fontSize={20} mb={4}>
           Collaborations
         </Heading>
       </Section>
@@ -88,7 +95,7 @@ const Works = () => (
       </SimpleGrid>
 
       <Section delay={0.4}>
-        <Divider my={6} />
+        <Divider my={6} /> */}
 
         <Heading as="h3" fontSize={20} mb={4}>
           Old works
@@ -97,11 +104,11 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.5}>
-          <WorkGridItem id="pichu2" thumbnail={thumbPichu2} title="Pichu*Pichu">
-            Twitter client app for iPhone Safari
+          <WorkGridItem id="pichu2" thumbnail={Chatty} title="Chatty">
+            Chat to your friends
           </WorkGridItem>
         </Section>
-        <Section delay={0.5}>
+        {/* <Section delay={0.5}>
           <WorkGridItem
             id="freedbtagger"
             thumbnail={thumbFreeDBTagger}
@@ -109,11 +116,9 @@ const Works = () => (
           >
             Automatic audio file tagging tool using FreeDB for Windows
           </WorkGridItem>
-        </Section>
+        </Section> */}
         <Section delay={0.6}>
-          <WorkGridItem id="amembo" thumbnail={thumbAmembo} title="Amembo">
-            P2P private file sharing tool with MSN Messenger integration for
-            Windows
+          <WorkGridItem id="amembo" thumbnail={Meal} title="melon">
           </WorkGridItem>
         </Section>
       </SimpleGrid>
