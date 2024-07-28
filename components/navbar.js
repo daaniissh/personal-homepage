@@ -80,7 +80,7 @@ const Navbar = props => {
           <LinkItem href="/works" path={path}>
             Works
           </LinkItem>
-          <LinkItem href="/wallpapers" path={path}>
+          {/* <LinkItem href="/wallpapers" path={path}>
             Wallpapers
           </LinkItem>
           <LinkItem href="/posts" path={path}>
@@ -98,7 +98,7 @@ const Navbar = props => {
           >
             <IoLogoGithub />
             Source
-          </LinkItem>
+          </LinkItem> */}
         </Stack>
 
         <Box flex={1} align="right">
@@ -119,7 +119,7 @@ const Navbar = props => {
                 <MenuItem as={MenuLink} href="/works">
                   Works
                 </MenuItem>
-                <MenuItem as={MenuLink} href="/wallpapers">
+                {/* <MenuItem as={MenuLink} href="/wallpapers">
                   Wallpapers
                 </MenuItem>
                 <MenuItem as={MenuLink} href="/posts">
@@ -133,7 +133,7 @@ const Navbar = props => {
                   href="https://github.com/craftzdog/craftzdog-homepage"
                 >
                   View Source
-                </MenuItem>
+                </MenuItem> */}
               </MenuList>
             </Menu>
           </Box>

@@ -12,13 +12,13 @@ import {
 } from '@chakra-ui/react'
 import { ChevronRightIcon, EmailIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
-import { BioSection, BioYear } from '../components/bio'
+// import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
-import thumbYouTube from '../public/images/links/youtube.png'
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
+import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoDiscord } from 'react-icons/io5'
+import thumbYouTube from '../public/images/works/foodeli.png'
+import thumbInkdrop from '../public/images/works/steller.png'
 import Image from 'next/image'
 
 const Home = () => (
@@ -38,7 +38,7 @@ const Home = () => (
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Danish
+            Danish ♥
           </Heading>
           <p>Digital Craftsman (  Developer / Designer )</p>
         </Box>
@@ -59,7 +59,7 @@ const Home = () => (
             overflow="hidden"
           >
             <Image
-              src="/images/takuya.jpg"
+              src="/images/sme.jpg"
               alt="Profile image"
               width="100"
               height="100"
@@ -73,26 +73,10 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Takuya is a freelance and a full-stack developer based in Osaka with a
+          Danish is a freelance and a full-stack developer based in India with a
           passion for building digital services/stuff he wants. He has a knack
           for all things launching products, from planning and designing all the
-          way to solving real-life problems with code. When not online, he loves
-          hanging out with his camera. Currently, he is living off of his own
-          product called{' '}
-          <Link as={NextLink} href="/works/inkdrop" passHref scroll={false}>
-            Inkdrop
-          </Link>
-          . He publishes content for marketing his products and his YouTube
-          channel called &quot;
-          <Link
-            as={NextLink}
-            href="https://www.youtube.com/devaslife"
-            passHref
-            target="_blank"
-          >
-            Dev as Life
-          </Link>
-          &quot; has more than 100k subscribers.
+          way to solving real-life problems with code. 
         </Paragraph>
         <Box align="center" my={4}>
           <Button
@@ -107,7 +91,7 @@ const Home = () => (
         </Box>
       </Section>
 
-      <Section delay={0.2}>
+      {/* <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
           Bio
         </Heading>
@@ -129,22 +113,14 @@ const Home = () => (
           <BioYear>2012 to present</BioYear>
           Working as a freelancer
         </BioSection>
-      </Section>
+      </Section> */}
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
           I ♥
         </Heading>
         <Paragraph>
-          Art, Music,{' '}
-          <Link href="https://illust.odoruinu.net/" target="_blank">
-            Drawing
-          </Link>
-          , Playing Drums,{' '}
-          <Link href="https://500px.com/p/craftzdog" target="_blank">
-            Photography
-          </Link>
-          , Leica, Machine Learning
+          Art, Music, Drawing, Coding, Photography, Gaming
         </Paragraph>
       </Section>
 
@@ -154,35 +130,35 @@ const Home = () => (
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://github.com/craftzdog" target="_blank">
+            <Link href="https://github.com/daaniissh" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoGithub />}
               >
-                @craftzdog
+                @daaniissh
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/inkdrop_app" target="_blank">
+            <Link href="https://twitter.com/daaniisssh" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoTwitter />}
               >
-                @inkdrop_app (English)
+                @daaniisssh (English)
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/craftzdog" target="_blank">
+            <Link href="https://discord.com/" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
-                leftIcon={<IoLogoTwitter />}
+                leftIcon={<IoLogoDiscord/>}
               >
-                @craftzdog (日本語)
+                @danieeesh
               </Button>
             </Link>
           </ListItem>
@@ -201,38 +177,38 @@ const Home = () => (
 
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
-            href="https://www.youtube.com/devaslife"
-            title="Dev as Life"
+            href="https://foodeli-jet.vercel.app/"
+            title="Foodeli"
             thumbnail={thumbYouTube}
           >
-            My YouTube channel (&gt;150k subs)
+            A MERN stack web app
           </GridItem>
           <GridItem
-            href="https://www.inkdrop.app/"
-            title="Inkdrop"
+            href="https://steller-hub.vercel.app/"
+            title="Steller"
             thumbnail={thumbInkdrop}
           >
-            A Markdown note-taking app
+           Welcome to our global product discovery platform
           </GridItem>
         </SimpleGrid>
 
-        <Heading as="h3" variant="section-title">
+        {/* <Heading as="h3" variant="section-title">
           Newsletter
         </Heading>
         <p>
           Join me on a behind-the-scenes coding journey. Weekly updates on
           projects, tutorials, and videos
-        </p>
+        </p> */}
 
         <Box align="center" my={4}>
           <Button
             as={NextLink}
-            href="https://www.devas.life/"
+            href="mailto:pkdanish329@gmail.com"
             scroll={false}
             leftIcon={<EmailIcon />}
             colorScheme="teal"
           >
-            Sign up my newsletter here
+            Get In Touch ♥
           </Button>
         </Box>
       </Section>
