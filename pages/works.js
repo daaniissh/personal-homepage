@@ -23,14 +23,14 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="inkdrop" title="Foodeli" thumbnail={Foodeli}>
+          <WorkGridItem id="foodeli" title="Foodeli" thumbnail={Foodeli}>
             Foodeli is an online marketplace where people can buy and sell food.
             It helps food lovers find what they want and helps food sellers
             reach customers easily.
           </WorkGridItem>
         </Section>
         <Section>
-          <WorkGridItem id="walknote" title="Steller" thumbnail={Steller}>
+          <WorkGridItem id="steller" title="Steller" thumbnail={Steller}>
             Discover products available locally. We provide convenient purchase
             links to Amazon and Flipkart, tailored to your location for a
             seamless shopping experience.
@@ -39,7 +39,7 @@ const Works = () => (
 
         <Section delay={0.1}>
           <WorkGridItem
-            id="fourpainters"
+            id="moviedashboard"
             title="Movie Dashboard"
             thumbnail={Movie}
           >
@@ -48,7 +48,7 @@ const Works = () => (
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
-          <WorkGridItem id="menkiki" thumbnail={Flair} title="Movie Flair">
+          <WorkGridItem id="movieflair" thumbnail={Flair} title="Movie Flair">
           Find your next movie! Search for titles or discover popular picks.
 
 

@@ -5,9 +5,7 @@ import {
   List,
   ListItem,
   SimpleGrid,
-  UnorderedList,
-  Heading,
-  Center
+  
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
@@ -15,43 +13,43 @@ import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 
 const Work = () => (
-  <Layout title="walknote">
+  <Layout title="steller">
     <Container>
       <Title>
-        walknote <Badge>2011-2016</Badge>
+        steller <Badge>2023</Badge>
       </Title>
       <P>
-        walknote recommends new music you may like based on your music
-        preferences by recognizing your favorite songs stored in your device.
-        You can listen to recommended music just like a radio!
+      Discover products available in your country! Our site shows items with Amazon and Flipkart purchase links. Automatically detects your location for a seamless shopping experience across different regions.
       </P>
-      <P>
+      {/* <P>
         This service has been closed. Thank you for over 130,000 registered
         users!
-      </P>
+      </P> */}
       <List ml={4} my={4}>
-        <ListItem>
-          <Meta>Platform</Meta>
-          <span>iOS</span>
+      <ListItem>
+          <Meta>Website</Meta>
+          <Link href="https://steller-hub.vercel.app/">
+            https://steller-hub.vercel.app/ <ExternalLinkIcon mx="2px" />
+          </Link>
         </ListItem>
-        <ListItem>
+        {/* <ListItem>
           <Meta>Blogpost</Meta>
           <Link href="https://archive.craftz.dog/blog.odoruinu.net/2016/09/06/farewell-from-walknote/">
             音楽発掘アプリwalknoteクローズのお知らせ{' '}
             <ExternalLinkIcon mx="2px" />
           </Link>
-        </ListItem>
+        </ListItem> */}
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Objective-C, PHP, MongoDB</span>
+          <span>MERN</span>
         </ListItem>
       </List>
 
-      <Heading as="h4" fontSize={16} my={6}>
+      {/* <Heading as="h4" fontSize={16} my={6}>
         <Center>Media coverage</Center>
-      </Heading>
+      </Heading> */}
 
-      <UnorderedList my={4}>
+      {/* <UnorderedList my={4}>
         <ListItem>
           <Link href="http://renewal49.hateblo.jp/entry/20120710/1341925681">
             <Badge mr={2}>リニューアル式</Badge>
@@ -84,15 +82,15 @@ const Work = () => (
           </Link>
           <ExternalLinkIcon mx="2px" />
         </ListItem>
-      </UnorderedList>
+      </UnorderedList> */}
 
-      <SimpleGrid columns={2} gap={2}>
-        <WorkImage src="/images/works/walknote_01.png" alt="walknote" />
-        <WorkImage src="/images/works/walknote_02.png" alt="walknote" />
+      <SimpleGrid columns={1} gap={2}>
+        <WorkImage src="/images/works/steller-p.jpg" alt="walknote" />
+        {/* <WorkImage src="/images/works/walknote_02.png" alt="walknote" /> */}
       </SimpleGrid>
-      <WorkImage src="/images/works/walknote_03.png" alt="walknote" />
-      <WorkImage src="/images/works/walknote_04.png" alt="walknote" />
-      <WorkImage src="/images/works/walknote_05.png" alt="walknote" />
+      <WorkImage src="/images/works/steller.png" alt="walknote" />
+      {/* <WorkImage src="/images/works/walknote_04.png" alt="walknote" /> */}
+      {/* <WorkImage src="/images/works/walknote_05.png" alt="walknote" /> */}
     </Container>
   </Layout>
 )
