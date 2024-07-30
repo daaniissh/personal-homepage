@@ -15,9 +15,9 @@ const Main = ({ children, router }) => {
     <Box as="main" pb={8}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Danish's homepage" />
+        <meta name="description" content="Danish's Homepage" />
         <meta name="author" content="Danish" />
-        <meta name="author" content="lol" />
+        <meta name="author" content="Yya,Im here" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <meta name="twitter:title" content="Danish" />

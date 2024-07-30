@@ -104,7 +104,7 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.5}>
-          <WorkGridItem id="pichu2" thumbnail={Chatty} title="Chatty">
+          <WorkGridItem id="chatty" thumbnail={Chatty} title="Chatty">
             Chat to your friends
           </WorkGridItem>
         </Section>
@@ -118,7 +118,7 @@ const Works = () => (
           </WorkGridItem>
         </Section> */}
         <Section delay={0.6}>
-          <WorkGridItem id="amembo" thumbnail={Meal} title="melon">
+          <WorkGridItem id="melon" thumbnail={Meal} title="melon">
           </WorkGridItem>
         </Section>
       </SimpleGrid>

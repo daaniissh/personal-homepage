@@ -36,13 +36,13 @@ const Work = () => (
       <List ml={4} my={4}>
       <ListItem>
           <Meta>SOURCE</Meta>
-          <Link href="https://github.com/daaniissh/movie-dashbord">
-          https://github.com/daaniissh/movie-dashboard <ExternalLinkIcon mx="2px" />
+          <Link href="https://github.com/daaniissh/MovieFlair">
+          https://github.com/daaniissh/MovieFlair <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Objective-C++, Swift, BLVC CaffeNet Model</span>
+          <span>REACT</span>
         </ListItem>
         
       </List>
@@ -64,8 +64,8 @@ const Work = () => (
 
       <WorkImage src="/images/works/flair.png" alt="menkiki" />
       <SimpleGrid columns={2} gap={2}>
-        <WorkImage src="/images/works/menkiki_01.png" alt="menkiki" />
-        <WorkImage src="/images/works/menkiki_02.png" alt="menkiki" />
+        <WorkImage src="/images/works/flair-p-1.jpg" alt="menkiki" />
+        <WorkImage src="/images/works/flair-p.jpg" alt="menkiki" />
       </SimpleGrid>
     </Container>
   </Layout>
