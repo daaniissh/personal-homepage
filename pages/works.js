@@ -4,6 +4,7 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
 import Foodeli from '../public/images/works/foodeli.png'
+import X from '../public/images/works/x2.png'
 import Steller from '../public/images/works/steller.png'
 import Movie from '../public/images/works/1154.jpg'
 import Flair from '../public/images/works/flair.png'
@@ -22,6 +23,11 @@ const Works = () => (
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section>
+          <WorkGridItem id="X" title="X" thumbnail={X}>
+          A social media platform built with MERN (MongoDB, Express.js, React.js, Node.js) and Tailwind CSS. Users can create posts, interact with others, and customize their profiles.
+          </WorkGridItem>
+        </Section>
         <Section>
           <WorkGridItem id="foodeli" title="Foodeli" thumbnail={Foodeli}>
             Foodeli is an online marketplace where people can buy and sell food.

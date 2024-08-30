@@ -27,6 +27,12 @@ const Work = () => (
             https://foodeli-jet.vercel.app/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
+        <ListItem>
+          <Meta>REPO</Meta>
+          <Link href="https://github.com/daaniissh/Foodeli">
+            https://github.com/daaniissh/Foodeli <ExternalLinkIcon mx="2px" />
+          </Link>
+        </ListItem>
         {/* <ListItem>
           <Meta>Platform</Meta>
           <span>Windows/macOS/Linux/iOS/Android</span>

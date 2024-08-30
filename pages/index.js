@@ -18,7 +18,7 @@ import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoDiscord } from 'react-icons/io5'
 import thumbYouTube from '../public/images/works/foodeli.png'
-import thumbInkdrop from '../public/images/works/steller.png'
+import thumbInkdrop from '../public/images/works/x2.png'
 import Image from 'next/image'
 
 const Home = () => (
@@ -184,11 +184,11 @@ const Home = () => (
             A MERN stack web app
           </GridItem>
           <GridItem
-            href="https://steller-hub.vercel.app/"
-            title="Steller"
+            href="https://x-client-home.vercel.app/"
+            title="X"
             thumbnail={thumbInkdrop}
           >
-           Welcome to our global product discovery platform
+           A social media platform built with MERN
           </GridItem>
         </SimpleGrid>
 
