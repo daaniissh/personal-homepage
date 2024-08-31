@@ -1,49 +1,28 @@
-import NextLink from 'next/link'
-import { Box, Container, Heading, SimpleGrid, Link } from '@chakra-ui/react'
+
+import { Box, Container, Heading,  } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 import Section from '../../components/section'
-import { WorkGridItem } from '../../components/grid-item'
+// import { WorkGridItem } from '../../components/grid-item'
 
-import thumbCherryBlossoms from '../../public/images/wallpapers/cherry-blossoms/ls-13.jpg'
-import thumbMachiya from '../../public/images/wallpapers/machiya/ls-03.jpg'
+// import thumbCherryBlossoms from '../../public/images/wallpapers/cherry-blossoms/ls-13.jpg'
+// import thumbMachiya from '../../public/images/wallpapers/machiya/ls-03.jpg'
 
 const Wallpapers = () => (
-  <Layout title="Wallpaper Packs">
+  <Layout title="She Want this">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
-        Wallpaper Packs
+        My Playlist 💘
       </Heading>
 
       <Box my={4}>
-        The wallpaper packs offer a selection of carefully curated images
-        from&nbsp;
-        <Link as={NextLink} href="https://www.youtube.com/devaslife">
-          the devaslife YouTube channel
-        </Link>
-        , known for its programming content.
+    <h1 style={{color:"violet",fontWeight:"900"}} >Heaven  is a Place on earth with you 🤍,</h1>   
+       
       </Box>
 
       <Section>
-        <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <WorkGridItem
-            category="wallpapers"
-            id="machiya"
-            title="Machiya"
-            thumbnail={thumbMachiya}
-          >
-            A traditional Japanese house, offering a tranquil backdrop that
-            contrasts with the technical subject matter
-          </WorkGridItem>
-          <WorkGridItem
-            category="wallpapers"
-            id="cherry-blossoms"
-            title="Cherry Blossoms"
-            thumbnail={thumbCherryBlossoms}
-          >
-            A serene riverside and cherry blossoms backdrop of the programming
-            tutorial
-          </WorkGridItem>
-        </SimpleGrid>
+      
+        <iframe style={{borderRadius:"12px"}} src="https://open.spotify.com/embed/playlist/006tMshPgVMUCBahNqlDfo?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+       
       </Section>
     </Container>
   </Layout>

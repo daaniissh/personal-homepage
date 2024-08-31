@@ -81,10 +81,10 @@ const Navbar = props => {
           <LinkItem href="/works" path={path}>
             Works
           </LinkItem>
-          {/* <LinkItem href="/wallpapers" path={path}>
-            Wallpapers
+           <LinkItem href="/wallpapers" path={path}>
+            Playlist 💗
           </LinkItem>
-          <LinkItem href="/posts" path={path}>
+         {/* <LinkItem href="/posts" path={path}>
             Posts
           </LinkItem>
           <LinkItem href="https://uses.craftz.dog/">Uses</LinkItem>
